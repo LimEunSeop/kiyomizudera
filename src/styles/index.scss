@@ -1,0 +1,11 @@
+@import 'normalize.css';
+@import './custom-reset.scss';
+@import './fonts.scss';
+
+html {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+
+body {
+  margin: 0;
+}

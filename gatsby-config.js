@@ -1,7 +1,19 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "my-real-trip",
+    siteUrl: 'https://limeunseop.github.io/kiyomizudera',
+    title: 'kiyomizudera',
   },
-  plugins: ["gatsby-plugin-sass"],
-};
+  pathPrefix: '/kiyomizudera',
+  plugins: [
+    'gatsby-plugin-sass',
+    'gatsby-plugin-styled-components',
+    {
+      resolve: 'gatsby-plugin-react-svg',
+      options: {
+        rule: {
+          include: /assets\/images\/.*?\.svg/,
+        },
+      },
+    },
+  ],
+}
