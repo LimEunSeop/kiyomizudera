@@ -1,8 +1,8 @@
 {
-  "name": "my-real-trip",
+  "name": "kiyomizudera",
   "version": "1.0.0",
   "private": true,
-  "description": "my-real-trip",
+  "description": "kiyomizudera",
   "author": "LimEunSeop",
   "keywords": [
     "gatsby"
@@ -12,7 +12,8 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "deploy": "gatsby build --prefix-paths && gh-pages -d public"
   },
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.36",
